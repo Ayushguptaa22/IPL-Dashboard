@@ -94,6 +94,14 @@ public class Match {
     public void setResultMargin(String resultMargin) {
         this.resultMargin = resultMargin;
     }
+    @Override
+    public String toString() {
+        return "Match [city=" + city + ", date=" + date + ", id=" + id + ", matchWinner=" + matchWinner
+                + ", playerOfMatch=" + playerOfMatch + ", result=" + result + ", resultMargin=" + resultMargin
+                + ", team1=" + team1 + ", team2=" + team2 + ", tossDecision=" + tossDecision + ", tossWinner="
+                + tossWinner + ", venue=" + venue + "]";
+    }
 
+    
     
 }
