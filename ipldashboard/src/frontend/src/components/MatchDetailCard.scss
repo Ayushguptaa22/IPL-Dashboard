@@ -1,0 +1,17 @@
+.MatchDetailCard{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    .otherTeam{
+        font-size: 35px;
+    }
+    .venue, .winner, .result{
+        margin-top: 5px;
+    }
+    .innings{
+        text-align: right;
+    }
+    
+}
+
+
