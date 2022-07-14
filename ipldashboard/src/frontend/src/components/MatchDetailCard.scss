@@ -1,6 +1,7 @@
 .MatchDetailCard{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    padding-bottom: 5px;
     
     .otherTeam{
         font-size: 35px;
